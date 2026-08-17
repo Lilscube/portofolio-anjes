@@ -62,15 +62,6 @@ export default function Hero() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="lg:col-span-7 flex flex-col justify-center"
         >
-          {/* Availability Status Tag */}
-          <div className="inline-flex items-center gap-2.5 w-fit border border-[#FF7A45]/30 bg-[#17212B] px-3.5 py-1.5 font-mono text-xs text-[#FF7A45] rounded-none">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#FF7A45] opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-[#FF7A45]"></span>
-            </span>
-            <span>AVAILABLE_FOR_HIRE</span>
-          </div>
-
           {/* Headline */}
           <h1 className="mt-6 text-4xl font-extrabold tracking-tight text-[#F5F1E8] sm:text-5xl lg:text-6xl leading-[1.15]">
             {t?.hero?.titleLine1 || "Crafting digital"}{" "}
